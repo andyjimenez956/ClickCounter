@@ -6,8 +6,8 @@ startButton.addEventListener('click', function(){
 }, {once: true});
 
 function game(){
-  let count = 0;
-  
+  let count = 1;
+    startButton.innerHTML = count;
 startButton.addEventListener('click', function(){
   count++;
   startButton.innerHTML = count;
