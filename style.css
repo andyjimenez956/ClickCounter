@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 20pt;
+  font-weight: normal;
+  background: lightblue;
+  color: #faf4f4;
+  text-shadow: 1px 1px 1px #3b3b3b;
+  background: -webkit-linear-gradient(
+    -90deg,
+    lightblue,
+    pink
+  ); /*Safari*/
+  background: -o-linear-gradient(
+    -90deg,
+    lightblue,
+    pink
+  ); /*Opera*/
+  background: -moz-linear-gradient(
+    -90deg,
+    lightblue,
+    pink
+  ); /*Firefox*/
+  background: linear-gradient(-90deg, lightblue, pink);
+}
+
+.main {
+  margin: 100px auto;
+  text-align: center;
+}
+
+button {
+  padding: 20px;
+  background: transparent;
+  text-shadow: 1px 1px 1px #3b3b3b;
+  font-family: sans-serif;
+  font-size: 18pt;
+  border: 5px solid lightblue;
+  color: #a0cdf8;
+}
+
+.timer {
+  padding: 20px;
+  background: transparent;
+  text-shadow: 1px 1px 1px #3b3b3b;
+  font-family: sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #faf4f4;
+}
